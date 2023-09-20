@@ -21,9 +21,6 @@ header{
 
 }
 
-a{
-  color: white;
-}
 
 .grid8{
   grid-column: 8;
@@ -32,84 +29,4 @@ a{
   grid-column: 9;
 }
 
-.modalContainer{
-  max-width: 700px;
-  width: 100%;
-  height: 300px;
-  position: fixed;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  display: flex;
-  background-color: rgb(215, 222, 231);
-  box-shadow: 0px 0px 18px 0px rgb(58, 51, 51);
 
-}
-
-.modalheader{
-  text-align: center;
-  color: blue;
-}
-
-
-.buttons{
- padding: 5px 25px 5px 25px;
- text-align: center; 
- 
-}
-
-.size{
-  height: 40px;
-  width: 90px;
-}
-
-table {
-  text-align: center;
-  margin-left: 20%;
-  background-color: beige;
-}
-
-th{
-  background-color: chartreuse;
-}
-th,td{
-  border: 1px solid;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.center{
-  margin-left: 20%;
-  margin-top: 100px;
-  padding: 5px 25px 5px 25px;
-}
-
-.loginContainer{
-  max-width: 300px;
-  width: 100%;
-  height: 200px;
-  position: fixed;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  display: flex;
-  background-color: rgb(215, 222, 231);
-  box-shadow: 0px 0px 18px 0px rgb(58, 51, 51);
-
-}
-
-.loginbuttons{
-  text-align: center;
-  margin-top: 10%; 
-  
- }
-
- .loginheader{
-  font-size: 20px;
-  text-align: center;
- }
- .loginbuttonsize{
-    height: 30px;
-    width: 90px;
-  
- }
